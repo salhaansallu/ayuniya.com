@@ -75,7 +75,7 @@
             <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-2">
                 <div class="col">
                     <div class="brand">
-                        <img src="{{ asset('images/brand/logo.png') }}" alt="Ayuniya Logo">
+                        <img src="{{ asset('images/brand/logo-light.png') }}" alt="Ayuniya Logo">
                     </div>
                     <div class="about">
                         <p class="subtext">Ayuniya is the world's first automated herbal product marketplace and automated ayurvedic and herbal medicine hospital booking service</p>
