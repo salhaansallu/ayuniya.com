@@ -41,8 +41,8 @@
             <li><a href="/">Home</a></li>
             <li><a href="/#products">Projects</a></li>
             <li><a href="https://store.ayuniya.com">Shop</a></li>
-            <li><a href="">Contact us</a></li>
-            <li><a href="https://ayuniya.com/register" class="primary-btn">Register Ayuniya ID</a></li>
+            <li><a href="/contact-us">Contact us</a></li>
+            <li><a href="https://store.ayuniya.com/register" class="primary-btn">Register Ayuniya ID</a></li>
         </ul>
 
         <div class="row row-cols-3" style="justify-content: space-between;">
@@ -59,10 +59,10 @@
             <div class="col">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="#products">Projects</a></li>
+                    <li><a href="/#products">Projects</a></li>
                     <li><a href="https://store.ayuniya.com">Shop</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="https://ayuniya.com/register" class="reg_btn primary-btn">Register</a></li>
+                    <li><a href="/contact-us">Contact us</a></li>
+                    <li><a href="https://store.ayuniya.com/register" class="reg_btn primary-btn">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -91,16 +91,16 @@
                     <div class="head mt-lg-5 mt-md-5 mt-sm-3">Quick links</div>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/#products">Projects</a></li>
                         <li><a href="https://store.ayuniya.com">Shop</a></li>
-                        <li><a href="">Register for Ayuniya ID</a></li>
+                        <li><a href="https://store.ayuniya.com/register">Register for Ayuniya ID</a></li>
                     </ul>
                 </div>
 
                 <div class="col">
                     <div class="head mt-lg-5 mt-md-5 mt-sm-3">Customer service</div>
                     <ul>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
                     </ul>
                     <div class="head">Social links</div>
 

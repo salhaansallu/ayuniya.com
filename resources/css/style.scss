@@ -48,17 +48,12 @@ $primary_font: 'Poppins', sans-serif;
     }
 
     @media only screen and (max-width: 1440px) {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     @media only screen and (max-width: 1024px) {
-        font-size: 11px;
+        font-size: 13px;
         padding: 5px 25px;
-    }
-
-    @media only screen and (max-width: 768px) {
-        font-size: 10px;
-        padding: 3px 20px;
     }
 }
 
@@ -414,6 +409,7 @@ $primary_font: 'Poppins', sans-serif;
                     @media only screen and (max-width: 768px) {
                         text-align: center;
                     }
+
                     @media only screen and (max-width: 355px) {
                         font-size: 20px;
                         line-height: 25px;
@@ -547,7 +543,7 @@ $primary_font: 'Poppins', sans-serif;
             @media only screen and (max-width: 575px) {
                 width: 100%;
 
-                &:last-child > .project_img {
+                &:last-child>.project_img {
                     height: 150px;
                 }
             }
@@ -824,6 +820,83 @@ footer {
 
             @media only screen and (max-width: 426px) {
                 font-size: 11px;
+            }
+        }
+    }
+}
+
+.contact_hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media only screen and (max-width: 575px) {
+        padding-top: 5px;
+    }
+
+    &>.head {
+        text-align: center;
+        font-family: $primary_font;
+        margin-bottom: 50px;
+
+        &>h1 {
+            font-weight: bold;
+            color: $primary;
+        }
+
+        &>p {
+            color: $secondary_text;
+
+            @media only screen and (max-width: 575px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        form {
+            width: 500px;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0px 0px 15px 0px #29292941;
+
+            @media only screen and (max-width: 575px) {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .row {
+                .col-12 {
+                    * {
+                        width: 100%;
+                    }
+
+                    b {
+                        color: $secondary_text;
+                        display: block;
+                        margin: 10px 0 5px 0;
+                    }
+
+                    input,
+                    textarea {
+                        font-size: 14px;
+                        padding: 10px;
+                    }
+                }
+
+                button {
+                    border-radius: 5px;
+                    width: 100px;
+                    margin: 20px 0 0 10px;
+                }
             }
         }
     }

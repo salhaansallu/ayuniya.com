@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessagesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/contact-us', function () {
+    return view('contact');
+});
+
+Route::post('/send-message', [MessagesController::class, 'store']);
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');

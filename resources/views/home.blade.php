@@ -34,7 +34,7 @@
                         restore balance in our lives. Our marketplace brings together a diverse range of trusted suppliers
                         and healthcare providers who specialize in Ayurvedic medicine, ensuring that you have access to
                         high-quality and genuine herbal remedies.</p>
-                    <a href="" class="primary-btn border-only">Contact us</a>
+                    <a href="/contact-us" class="primary-btn border-only">Contact us</a>
                 </div>
             </div>
         </div>
