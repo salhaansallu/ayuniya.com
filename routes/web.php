@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MessagesController;
 use App\Http\Controllers\ProfileController;
+use App\Models\products;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $products = products::where('vendor', '=', '1')->inRandomOrder()->limit(5)->get();
+    $products->map(function ($varients){
+        return $varients->varient;
+    });
+    return view('home')->with('products', $products);
 });
 
 Route::get('/contact-us', function () {

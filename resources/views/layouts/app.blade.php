@@ -78,12 +78,12 @@
                         <img src="{{ asset('images/brand/logo-light.png') }}" alt="Ayuniya Logo">
                     </div>
                     <div class="about">
-                        <p class="subtext">Ayuniya is the world's first automated herbal product marketplace and automated ayurvedic and herbal medicine hospital booking service</p>
+                        <p class="subtext">Your health is our wealth</p>
                     </div>
                     <div class="contact_d">
-                        <div class="dtl"><i class="fa fa-phone"></i> <a href="tel:+947612345678">+94 81 242 1848</a></div>
-                        <div class="dtl"><i class="fa fa-envelope"></i> <a href="mailto:info@ayuniya.com">info@ayuniya.com</a></div>
-                        <div class="dtl"><i class="fa-solid fa-location-dot"></i> Kandy, Sri Lanka</div>
+                        <div class="dtl"><i class="fa fa-phone"></i> <a href="tel:+94764292602"> +94 76 429 2602</a></div>
+                        <div class="dtl"><i class="fa fa-envelope"></i> <a href="mailto:info@ayuniya.com"> info@ayuniya.com</a></div>
+                        <div class="dtl"><i class="fa-solid fa-location-dot"></i> H3 building ,IDB ,pallekale</div>
                     </div>
                 </div>
 

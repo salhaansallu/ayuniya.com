@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +17,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::post('/get-hash', function (Request $request) {
+    if ($request->input('action') == "get_hash") {
+        return array(
+            'error'=>0,
+            'response'=> Hash::make($request->input('pass'))
+        );
+    }
 });

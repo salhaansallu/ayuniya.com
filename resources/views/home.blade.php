@@ -74,7 +74,7 @@
 
     <section id="products" class="site-container">
         <div class="head mb-5">
-            <h2 class="text-center">Our <span>Products</span></h2>
+            <h2 class="text-center">Our <span>Projects</span></h2>
         </div>
         <div class="row row-cols-2">
             <div class="col">
@@ -84,10 +84,39 @@
             </div>
 
             <div class="col">
-                <div class="project_img" style="background-image: url({{ asset('images/products/ayuniya_lms_loading.gif') }});">
+                <div class="project_img"
+                    style="background-image: url({{ asset('images/products/ayuniya_lms_loading.gif') }});">
                     <h3><a>Ayuniya LMS <br> Coming soon</a></h3>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="site-container selling_products">
+        <div class="head mb-5">
+            <h2 class="text-center">Our <span>Products</span></h2>
+        </div>
+        <div class="row row-cols-5">
+            @isset($products)
+                @foreach ($products as $product)
+                <div class="col">
+                    <div class="img">
+                        <a href="{{ productURL($product->id, $product->product_name) }}"><img
+                                src="{{ validate_image($product->banner) }}" alt=""></a>
+                    </div>
+                    <div class="detail">
+                        <div class="name"><a
+                                href="{{ productURL($product->id, $product->product_name) }}">{{ $product->product_name }}</a>
+                        </div>
+                        {{-- <div class="sales_price">{{ min_price($product->varients)[0] }}</div> --}}
+                        {{-- <div class="price"><del>{{ min_price($product->sortedvarients)[1] }}</del></div> --}}
+                        <div class="cart_btn">
+                            <a href="{{ productURL($product->id, $product->product_name) }}"><button>View</button></a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            @endisset
         </div>
     </section>
 @endsection

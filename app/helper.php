@@ -22,4 +22,14 @@ function countryVerify($country) {
     }
 }
 
+function productURL($pro_id, $pro_name)
+{
+    return "https://store.ayuniya.com/product/" . $pro_id . "/" . str_replace(' ', '-', strtolower($pro_name));
+}
+
+function validate_image($url)
+{
+    return 'https://store.ayuniya.com/assets/images/products/' . $url;
+}
+
 ?>
