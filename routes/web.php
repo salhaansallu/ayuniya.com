@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $products = products::where('vendor', '=', '1')->inRandomOrder()->limit(5)->get();
+    $products = products::where('vendor', '=', '2')->inRandomOrder()->limit(5)->get();
     $products->map(function ($varients){
         return $varients->varient;
     });

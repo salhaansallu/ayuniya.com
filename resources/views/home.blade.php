@@ -68,7 +68,7 @@
             <p class="subtext">Join us on this transformative journey and discover the world of Ayurvedic healthcare at
                 Ayuniya. Embrace the power of nature and ancient wisdom to nurture your body, mind, and soul. Experience the
                 benefits of Ayurveda and unlock a healthier, more balanced life.</p>
-            <a href="" class="primary-btn">Shop now</a>
+            <a href="https://store.ayuniya.com" class="primary-btn">Shop now</a>
         </div>
     </section>
 
